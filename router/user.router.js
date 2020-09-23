@@ -7,7 +7,7 @@ const userController = require('../controller/users.controller');
 userRouter.get('/', userController.getUsers);
 
 
-userRouter.post('/', userController.addUser);
+userRouter.post('/', userController.addUser)
 
 
 userRouter.put('/', userController.updateUser);
