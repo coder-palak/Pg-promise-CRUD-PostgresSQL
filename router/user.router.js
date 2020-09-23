@@ -10,7 +10,7 @@ userRouter.get('/', userController.getUsers);
 userRouter.post('/', userController.addUser)
 
 
-userRouter.put('/', userController.updateUser);
+userRouter.put('/', userController.updateUser)
 
 
 userRouter.delete('/', userController.deleteUser);
